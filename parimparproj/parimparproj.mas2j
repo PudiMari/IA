@@ -1,0 +1,9 @@
+/* Jason Project */
+
+MAS parimparproj {
+
+    infrastructure: Centralised
+
+    agents: agenteparimpar;
+}
+
