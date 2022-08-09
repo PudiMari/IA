@@ -1,0 +1,10 @@
+/* Jason Project */
+
+MAS tabuada {
+
+    infrastructure: Centralised
+
+    agents:
+	agentetabuada;
+}
+
