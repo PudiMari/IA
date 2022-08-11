@@ -1,0 +1,9 @@
+/* Jason Project */
+
+MAS tchulinho {
+
+    infrastructure: Centralised
+
+    agents: tchulo;
+}
+
