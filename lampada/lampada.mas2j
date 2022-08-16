@@ -1,0 +1,9 @@
+/* Jason Project */
+
+MAS lampada {
+
+    infrastructure: Centralised
+
+    agents: bob; kate;
+}
+
