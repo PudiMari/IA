@@ -1,0 +1,9 @@
+/* Jason Project */
+
+MAS naoSegunda {
+
+    infrastructure: Centralised
+
+    agents: monitor; pessoa; clima;
+}
+
