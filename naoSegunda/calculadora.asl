@@ -1,0 +1,8 @@
+!somar.
+
++!somar
+<- 
+	.print(U);
+	R = U + D;
+	.send(pessoa, tell, resultado(R)).
+

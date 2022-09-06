@@ -1,12 +1,8 @@
-// Agent clima in project naoSegunda.mas2j
-
-/* Initial beliefs and rules */
-
-/* Initial goals */
-
-!start.
-
-/* Plans */
-
-+!start : true <- .print("hello world.").
+clima(chuva).
 
+!publicar.
+
++!publicar : clima(C)
+<-
+	.print("O clima de hoje sera de ", C);
+	.send(pessoa, tell, clima(C)).

@@ -1,0 +1,2 @@
+nome(alice).
+nome(bob).

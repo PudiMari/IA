@@ -27,11 +27,10 @@ dois(5).
 	
 +!perguntar : um(U) & dois(D)
 <-
-	.print(U);
 	.print("Qual a soma de ", U, "e ", D);
 	.send(calculadora, tell, um(U));
 	.send(calculadora, tell, dois(D)).
 	
-//+resultado(R) [source(calculadora)]
-//<-
-	//.print("Resultado: ", R).
++resultado(R) [source(calculadora)]
+<-
+	.print("Resultado: ", R).
