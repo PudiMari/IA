@@ -1,37 +1,42 @@
 bomdia(noite).
-um(2).
-dois(5).
+numeros(2,5).
 
+!perguntar.
 !start.
+!analisar.
 
 +!start : bomdia(H) & H == dia 
 <- 
 	.print("Bom dia!").
 
-
 -!start : true
 <-
 	.print("Que bom dia o que! Uma hora dessas.").
 	
-+clima(sol)
++!analisar : clima(sol)
 <-
 	.print("Vou tomar um sorvete!").
 	
-+clima(chuva)
++!analisar : clima(chuva)
 <-
 	.print("To ferrado, nao tenho guarda chuva :(").
-	
-+clima(frio)
+
++!analisar : clima(sol)
 <-
 	.print("Pegar aquela meia quentinha :)").
 	
-+!perguntar : um(U) & dois(D)
+-!analisar : true
 <-
-	.print(U);
-	.print("Qual a soma de ", U, "e ", D);
-	.send(calculadora, tell, um(U));
-	.send(calculadora, tell, dois(D)).
+	.print("Vai viver e esquece disso!").
 	
-//+resultado(R) [source(calculadora)]
-//<-
-	//.print("Resultado: ", R).
++!perguntar : numeros(U,D)
+<-
+	.wait(1000);
+	.print("Qual a soma de ", U, " e ", D, "?");
+	.send(calculadora, achieve, numeros(U,D)).	
+
++resultado(R)
+<-
+	.wait(1000);
+	.print("Resultado da soma: ", R).
+	

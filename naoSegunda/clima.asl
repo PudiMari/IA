@@ -1,8 +1,7 @@
-clima(chuva).
+clima(sla).
 
-!publicar.
+!checar.
 
-+!publicar : clima(C)
++!checar : clima(C)
 <-
-	.print("O clima de hoje sera de ", C);
 	.send(pessoa, tell, clima(C)).

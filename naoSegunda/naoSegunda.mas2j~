@@ -11,7 +11,7 @@ MAS naoSegunda {
 
 
     agents:
-	monitor; pessoa; clima;
+	monitor; pessoa; clima; calculadora;
 }
 
 
