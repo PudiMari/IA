@@ -1,0 +1,10 @@
+/* Jason Project */
+
+MAS garrafinha {
+
+    infrastructure: Centralised
+
+    agents:
+	pessoa; garrafa;
+}
+

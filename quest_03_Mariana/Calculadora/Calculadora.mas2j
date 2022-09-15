@@ -1,0 +1,10 @@
+/* Jason Project */
+
+MAS calculadora {
+
+    infrastructure: Centralised
+
+    agents:
+	pessoa; soma; sub; mult;
+}
+

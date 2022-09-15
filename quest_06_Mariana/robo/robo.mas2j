@@ -1,0 +1,10 @@
+/* Jason Project */
+
+MAS robo {
+
+    infrastructure: Centralised
+
+    agents:
+	robo;
+}
+
